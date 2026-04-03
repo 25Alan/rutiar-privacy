@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Política de privacidad — Rutiar</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+        max-width: 42rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        color: #1a1a1a;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+      }
+      p,
+      li {
+        font-size: 0.95rem;
+      }
+      .muted {
+        color: #555;
+        font-size: 0.85rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Política de privacidad — Rutiar</h1>
+    <p class="muted">Última actualización: <span id="fecha"></span></p>
+    <p>
+      Esta política describe cómo la aplicación móvil
+      <strong>Rutiar</strong> (en adelante, la «App») trata la información en
+      relación con su uso. Al utilizar la App, usted acepta esta política.
+    </p>
+    <h2>1. Responsable</h2>
+    <p>
+      La App es ofrecida por su desarrollador, identificado en Google Play como
+      titular de la ficha de la aplicación. Para consultas sobre privacidad
+      puede utilizarse el correo de contacto indicado en la ficha de Google Play
+      de Rutiar.
+    </p>
+    <h2>2. Cuenta, inicio de sesión y datos en servidores propios</h2>
+    <p>
+      En la versión actual de Rutiar
+      <strong>no es obligatorio crear una cuenta</strong> y la App no utiliza,
+      por sí misma, una base de datos en servidores propios para guardar un
+      perfil de usuario identificable vinculado a un registro dentro de la
+      aplicación.
+    </p>
+    <p>
+      <strong>Evolutivo futuro:</strong> en actualizaciones posteriores podrían
+      incorporarse funciones que sí requieran identificación, por ejemplo inicio
+      de sesión con Google u otros proveedores, y/o almacenamiento de datos en
+      infraestructura o bases de datos gestionadas por el desarrollador. En ese
+      caso se actualizará esta política describiendo qué datos se recogen, con
+      qué finalidad y el fundamento del tratamiento; también se revisará la
+      información equivalente en Google Play (por ejemplo, la declaración de
+      seguridad de datos). Le recomendamos consultar periódicamente esta página
+      y las notas de la versión en la tienda.
+    </p>
+    <h2>3. Ubicación</h2>
+    <p>
+      Si concede permisos de ubicación, la App utiliza la posición del
+      dispositivo para mostrar el mapa en su entorno, calcular rutas y ofrecer
+      indicaciones por voz. Ese tratamiento tiene lugar principalmente
+      <strong>en el dispositivo</strong> y, cuando la funcionalidad lo requiere,
+      se envían coordenadas necesarias a servicios de terceros descritos más
+      abajo (por ejemplo, para obtener la geometría de la ruta).
+    </p>
+    <h2>4. Conexión a Internet y servicios de terceros</h2>
+    <p>La App utiliza conexión a Internet para:</p>
+    <ul>
+      <li>
+        <strong>Mapas (teselas / tiles):</strong> descarga de imágenes de mapa
+        desde proveedores públicos (por ejemplo, OpenStreetMap y otros
+        proveedores de mapas en línea). Esas solicitudes pueden registrar datos
+        técnicos habituales en los servidores de dichos proveedores conforme a
+        sus propias políticas.
+      </li>
+      <li>
+        <strong>Rutas (direcciones):</strong> el cálculo de rutas puede
+        realizarse mediante servicios de enrutamiento de código abierto (por
+        ejemplo, instancias públicas de OSRM). Para calcular una ruta se envían
+        los puntos necesarios (origen y destino) a dicho servicio.
+      </li>
+    </ul>
+    <p>
+      No controlamos las políticas de privacidad de terceros; le recomendamos
+      consultar la documentación de cada servicio si necesita detalle jurídico
+      adicional.
+    </p>
+    <h2>5. Síntesis de voz (lectura en voz alta)</h2>
+    <p>
+      Las funciones de texto a voz pueden utilizar los motores del sistema
+      operativo del dispositivo. El tratamiento correspondiente se rige por el
+      fabricante del sistema y sus ajustes de privacidad.
+    </p>
+    <h2>6. Permisos</h2>
+    <p>
+      La App solicita los permisos que el sistema muestre en la instalación o en
+      tiempo de ejecución, en coherencia con las funciones descritas (por
+      ejemplo, ubicación para mapa y rutas). Puede revocarlos desde la
+      configuración del dispositivo, sabiendo que algunas funciones dejarán de
+      estar disponibles.
+    </p>
+    <h2>7. Menores</h2>
+    <p>
+      La App no está dirigida a recopilar datos de menores de forma consciente.
+      Si usted es padre, madre o tutor y considera que se ha tratado información
+      de un menor de manera indebida, contacte mediante el correo de la ficha de
+      Play.
+    </p>
+    <h2>8. Cambios</h2>
+    <p>
+      Esta política puede actualizarse. La fecha de «Última actualización»
+      reflejará el cambio más reciente. El uso continuado de la App tras los
+      cambios implica la aceptación de la política revisada, salvo que la ley
+      exija otro procedimiento.
+    </p>
+    <h2>9. Contacto</h2>
+    <p>
+      Para ejercer derechos o realizar consultas de privacidad, utilice el
+      correo electrónico de contacto del desarrollador publicado en la ficha de
+      Google Play de Rutiar.
+    </p>
+    <p class="muted">
+      El desarrollador se esfuerza por describir de forma veraz el
+      funcionamiento de la App. Este texto es informativo y no sustituye
+      asesoramiento legal personalizado.
+    </p>
+    <script>
+      document.getElementById("fecha").textContent = new Date()
+        .toISOString()
+        .slice(0, 10);
+    </script>
+  </body>
+</html>
